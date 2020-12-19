@@ -1,4 +1,5 @@
 body {
+  font-family: "Work Sans", sans-serif;
   background-color: powderblue;
 }
 h1 {
@@ -8,26 +9,36 @@ h4 {
   color: darkgreen;
 }
 
-.navBar {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  float:left
 }
 
-.option {
-  float: left;
-}
-
-.link {
+.navlink {
   display: block;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  display: inline
 }
 
-.link:hover {
+.navlink:hover {
   background-color: #111111;
+}
+
+.welcomepic {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
