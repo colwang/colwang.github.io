@@ -2,12 +2,6 @@ body {
   font-family: "Work Sans", sans-serif;
   background-color: powderblue;
 }
-h1 {
-  color: orange;
-}
-h4 {
-  color: darkgreen;
-}
 
 .navbar {
   list-style-type: none;
@@ -31,6 +25,17 @@ h4 {
   background-color: #111111;
 }
 
+.bg {
+  /* The image used */
+  background-image: url("Ross_Building.jpg");
+
+  height: 250px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .welcomepic {
   width: 100%;
   height: auto;
@@ -40,5 +45,13 @@ h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 75%;
+}
+
+.wrapper_height {
+  height: 800px
+}
+
+.description {
+  float:right;
 }
