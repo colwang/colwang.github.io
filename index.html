@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Colin's Personal Website </title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
   </head>
 
   <body>
     <div id="root">
       <div>
-        <nav scrolling="true" class="navbar">
-          <span class="navbar brand">Colin Wang</span>  <!--Add Style-->
+        <nav class="navbar">
+          <span id="brand">Colin Wang</span>  <!--Add Style-->
           <a href="#about" class="navbar navlink">About</a>
           <a href="#involvement" class="navbar navlink">Involvement</a>
           <a href="#projects" class="navbar navlink">Projects</a>
@@ -23,25 +24,26 @@
       </div>
       <!-- <div class="bg"></div> -->
       <div class="section top center">
-          <img alt="Picture of The Ross School of Business and Colin" src="WebsiteFrontpage.svg" style="width:1500px;" >
+          <img class="welcome" alt="Picture of The Ross School of Business and Colin" src="WebsiteFrontpage.svg" style="width:1500px;" >
       </div>
       <div class="wrap-content wrapper_height">
         <div id="about" class="section about">
-          <h1 class="section_header">About</h1> <!--Add Style-->
+          <div class="section_header">
+            <h1>About</h1>
+          </div>
           <div class="container">
-            <div class="about education">
-              <div class="about description center">
+            <div class="about block">
+              <div class="about icon">
+                <img alt="Cap" src="education.svg" style="width:100px;height:100px;">
+              </div>
+              <div class="about description">
                 <p>
                     I am a part of the Class of 2024 at the University of Michigan, <br/> pursuing a dual degree in Business Administration
                   and Computer Science <br/>as well as a minor in Mathematics.
                 </p>
               </div>
-              <div class="about icon">
-                <img alt="Cap" src="education.svg" style="width:100px;height:100px;">
-              </div>
-              
             </div>
-            <div class="about work">
+            <div class="about block">
               <div class="about icon">
                 <img alt="Computer" src="work.svg" style="width:100px;height:100px;">
               </div>
@@ -51,7 +53,7 @@
                 </p>
               </div>
             </div>
-            <div class="about hobbies">
+            <div class="about block">
               <div class="about icon">
                 <img alt="Book" src="book.svg" style="width:100px;height:100px;">
               </div>
@@ -60,15 +62,15 @@
                   In my free time, I love reading, watching movies, and playing chess!
                 </p>
               </div>
-              
             </div>
-            <div class="about sports">
+            <div class="about block">
               <div class="about icon">
                 <img alt="Tennis Racket" src="tennis-xl.png" style="width:100px;height:100px;">
               </div>
               <div class="about description">
                 <p class="about sports">
-                  I love to play tennis, and I'm a big fantasy basketball nerd. Take a look at my fantasy team this year!
+                  I love to play tennis, and I'm a big fantasy basketball nerd. 
+                  <br/>Take a look at my fantasy team this year in the Fantasy Basketball section below!
                 </p>
               </div>
             </div>
@@ -77,22 +79,54 @@
       </div>
       <div class="wrap-content wrapper_height">
         <idv id="involvement" class="section involvement">
-          <h1 class="section_header">Involvement</h1> 
+          <div class="section_header">
+            <h1>Involvement</h1>
+          </div>
           <div class="container">
-            
+            <div class="involvement block">
+              <div class="involvement icon">
+                <img alt="PEVC Logo" src="Michigan_PEVC_Logo.png" style="width:280px;height:100px;">
+              </div>
+              <div class="involvement description">
+                <p>
+                  I joined Michigan Private Equity and Venture Capital in Fall 2020. 
+                  <br/>So far, I have had the opportunity to work with the fintech start-up 
+                  <br/> Trust & Will, analyzing the online probate market opportunity as well
+                  <br/> as presenting a strong potential market entry strategy. I am super
+                  <br/> excited to be serving as a Project Manager for Winter 2021!
+                </p>
+              </div>
+            </div>
+            <div class="involvement block">
+              <div class="involvement icon">
+                <img alt="MIG Logo" src="MIG_Logo.png" style="width:130px;height:100px;">
+              </div>
+              <div class="involvment description">
+                <p>
+                  I joined Michigan Investment Group in Fall 2020. During my first semester, 
+                  <br/> I was an analyst on the Energy and Commodities Desk, and our most notable 
+                  <br/> pitch was long $TPL on October 22nd. For Winter 2021, I will be acting
+                  <br/> as sector head for the Technology, Media, and Telecommunications desk!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="wrap-content wrapper_height">
         <div id="projects" class="section projects">
-          <h1 class="section_header">Projects</h1>
+          <div class="section_header">
+            <h1>Projects</h1>
+          </div>
           <div class="container">
           </div>
         </div>
       </div>
       <div class="wrap-content wrapper_height">
         <div id="fantasybball" class="section fantasybball">
-          <h1 class="section_header">Fantasy Basketball</h1>
+          <div class="section_header">
+            <h1>Fantasy Football</h1>
+          </div>
           <div class="container">
             
           </div>
