@@ -49,29 +49,57 @@ img {
 }
 
 .wrapper_height {
-  height: 800px
+  height: 1000px
+}
+
+.container {
+  margin: auto;
 }
 
 .section_header {
   font-size: 22px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .description {
   font-family: "Work Sans", sans-serif;
+  font-size: 20px;
   width: 50%;
   float: left;
-  text-align: center;
+  text-align: left;
 }
 
 .icon {
   width: 15%;
   float: left;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 
-.block {
+.about-block {
   min-height:150px;
+  margin-bottom: 20px;
+}
+
+.involvement-block {
+  min-height:300px;
   /* border: 3px solid #000000; */
   margin-bottom: 20px;
+}
+
+.about {
+  background-color: #005377;
+  color: white;
+}
+
+#involvement {
+  background-color: #000000;
+}
+
+/* .projects {
+
+} */
+
+.fantasybball {
+
 }
