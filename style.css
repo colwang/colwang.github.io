@@ -100,6 +100,25 @@ img {
 
 } */
 
-.fantasybball {
+.fbball-block {
+  text-align: center;
+  margin: 200px, auto;
+}
 
+.league-type {
+  text-align: center;
+}
+
+.draft-pic {
+  width: 24%;
+  float: left;
+  margin-left: 200px;
+}
+
+.draft-description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  width: 65%;
+  float: left;
+  text-align: left;
 }
